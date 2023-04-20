@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 
 	"github.com/gin-gonic/gin"
-	"todo/internal/domain"
+	"github.com/nurlan42/todo/internal/domain"
 
 	log "github.com/sirupsen/logrus"
 )

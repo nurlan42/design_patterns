@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/todo/cfg"
-	"github.com/todo/internal/domain"
+	"github.com/nurlan42/todo/cfg"
+	"github.com/nurlan42/todo/internal/domain"
 	"runtime/debug"
 )
 

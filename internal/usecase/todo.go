@@ -2,8 +2,8 @@ package usecase
 
 import (
 	"github.com/google/uuid"
-	"github.com/todo/internal/domain"
-	"github.com/todo/internal/repository"
+	"github.com/nurlan42/todo/internal/domain"
+	"github.com/nurlan42/todo/internal/repository"
 )
 
 type TODO struct {

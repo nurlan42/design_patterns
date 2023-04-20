@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"database/sql"
-	"todo/cfg"
+	"github.com/nurlan42/todo/cfg"
 
 	_ "github.com/lib/pq"
 )

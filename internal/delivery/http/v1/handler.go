@@ -2,7 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"todo/internal/usecase"
+	"github.com/nurlan42/todo/internal/usecase"
 
 	slog "github.com/sirupsen/logrus"
 )

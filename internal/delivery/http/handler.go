@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/todo/internal/delivery/http/v1"
-	"github.com/todo/internal/usecase"
+	"github.com/nurlan42/todo/internal/delivery/http/v1"
+	"github.com/nurlan42/todo/internal/usecase"
 
 	swfiles "github.com/swaggo/files"
 	ginsw "github.com/swaggo/gin-swagger"

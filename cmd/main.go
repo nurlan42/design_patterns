@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/nurlan42/todo/cfg"
-	"github.com/own/todo/internal/app"
+	"github.com/nurlan42/todo/internal/app"
 	"log"
 )
 

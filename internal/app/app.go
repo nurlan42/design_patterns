@@ -4,15 +4,21 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/nurlan42/todo/cfg"
+	"github.com/nurlan42/todo/internal/repository"
+	"github.com/nurlan42/todo/internal/usecase"
+	"github.com/nurlan42/todo/pkg/db"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
+	delivery "github.com/nurlan42/todo/internal/delivery/http"
 	log "github.com/sirupsen/logrus"
-	delivery "github.com/todo/internal/delivery/http"
 )
+
+//github.com/nurlan42/todo1
 
 func Run(cfg *cfg.Config) error {
 	sqlDB, err := db.Connect(cfg.DB.TODO)
